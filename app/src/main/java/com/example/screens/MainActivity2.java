@@ -19,7 +19,6 @@ public class MainActivity2 extends AppCompatActivity {
             String name = extras.getString("name");
             int number = extras.getInt("number");
             textView.setText(name);
-            // Do something with the name and number
         }
     }
 }

@@ -24,8 +24,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Log.d("==>","You've been taken away!");
                 Intent intent = new Intent(MainActivity.this, MainActivity2.class);
-                intent.putExtra("name", "Daniel"); // Optional
-                intent.putExtra("number", 1); // Optional
+                intent.putExtra("name", "Lando Norris"); // Optional
+                intent.putExtra("number", 4); // Optional
                 startActivity(intent);
             }
         });
